@@ -1,0 +1,541 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* Fondo BFA */
+
+div.bg-bfa.skin-bfa
+{
+    background-color: #000000;
+}
+
+div.skin-bfa.bfa-not-tilted
+{
+    background-repeat: no-repeat;
+}
+
+div.skin-bfa
+{
+    background-image: none;
+}
+
+div.skin-bfa
+{
+    background: #000000 url(../img/fondobfa.jpg) top center repeat;
+}
+
+div
+{
+    overflow-x: hidden;
+    position: relative;
+}
+
+div
+{
+    color: #d4d5d5;
+    font-family: 'Segoe UI', 'Open Sans';
+    font-size: 16px;
+    margin: 0;
+    overflow-x: auto;
+    padding: 0;
+}
+
+body, div
+{
+    border: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/* Pseudo::before element */
+
+div.bg-bfa.skin-bfa::before
+{
+    left: 50%;
+    margin-left: -995px;
+}
+
+div.bg-bfa.skin-bfa::after, div.bg-bfa.skin-bfa::before
+{
+    background-color: transparent;
+    background-image: url(../img/fondobfa.jpg);
+    background-repeat: no-repeat;
+    content: '';
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 0;
+}
+
+div.skin-bfa::after, div.skin-bfa::before
+{
+    display: none;
+}
+
+/* Pseudo::after element */
+
+div.bg-bfa.skin-bfa::after
+{
+    background-position: -960px 0;
+    margin-right: -980px;
+    right: 50%;
+}
+
+div.bg-bfa.skin-bfa::after, div.bg-bfa.skin-bfa::before
+{
+    background-color: transparent;
+    background-image: url(../img/fondobfa.jpg);
+    background-repeat: no-repeat;
+    content: '';
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 0;
+}
+
+div.skin-bfa::after, div.skin-bfa::before
+{
+    display:none;
+}
+
+/* Content */
+
+.header
+{
+    width: 75%;
+    height: 225px;
+    background-image: url(../img/Plaza-Banner-WoW.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-top: #D5D4D4 solid 1.5px;
+    border-left: #D5D4D4 solid 1.5px;
+    border-right: #D5D4D4 solid 1.5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ .navegation
+{
+    width: 75%;
+    background-color: #002a32;
+    color: white;
+    border-left: #D5D4D4 solid 1.5px;
+    border-right: #D5D4D4 solid 1.5px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navegation ul
+{
+    float: left;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    left: 50%;
+}
+
+.navegation ul li
+{
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+.navegation a
+{
+    display: inline-flex;
+    text-decoration: none;
+    color:#D5D4D4;
+    padding: 20px 25px;
+ }
+
+.navegation a:hover
+{
+    background-color: #003641;
+}
+
+.contenidobg
+{
+    background-color: #474646;
+    color: #d4d5d5;
+    opacity: 0.9;
+    width: 75%;
+    margin: 0 auto;
+    border-left: #D5D4D4 solid 1.5px;
+    border-right: #D5D4D4 solid 1.5px;
+    border-bottom: #D5D4D4 solid 1.5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.cuerpotxt
+{
+    width: 100%;
+}
+
+.footer
+{
+    width: 100%;
+    height: 110px;
+    background-color: #002a32;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.foot
+{
+    
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.chapters
+{
+    height: 400px;
+}
+
+.chapters ul
+{
+    margin: 3px 0;
+    margin-left: 4.5%;
+    line-height: 25px;
+}
+
+.chapters ul li a
+{
+    text-decoration: none;
+    color: #fec356;
+}
+
+.chapters ul li a:hover
+{
+    text-decoration: underline;
+}
+
+.awards ul li p
+{
+    color: #fec356;
+}
+
+/* Agregados */
+
+.margen-der
+{
+    margin-right: 3%;
+}
+
+.margen-iz
+{
+    margin-left: 3%;
+}
+
+.margen-ar
+{
+    margin-top: 1.5%;
+}
+
+.yel
+{
+    color: #fec356;
+}
+
+.txtiz
+{
+    text-align: left;
+}
+
+.txtder
+{
+    text-align: right;
+}
+
+.txtmedio
+{
+    text-align: center;
+}
+
+.inicio
+{
+    color: #D5D4D4;
+    text-decoration: none;
+}
+
+.Blizzard
+{
+    color: rgb(13, 13, 228);
+    text-decoration: none;
+}
+
+.ali
+{
+    color: rgb(13, 13, 201);
+}
+
+.horda
+{
+    color:rgb(189, 15, 15);
+}
+
+hr
+{
+    width: 95%;
+    margin: 0 auto;
+    opacity: .5;    
+}
+
+a.ir-arriba 
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+	background: #464747;
+	font-size: 30px;
+	color: #fff;
+	position: fixed;
+	bottom: 20px;
+    right: 20px;
+    border: 1px solid #d4d5d5;
+    border-radius: 30px;
+    text-decoration: none;
+    z-index: 5;
+}
+
+.redes
+{
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 45%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.redes a
+{
+    text-decoration: none;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    text-align: center;
+    /* border-radius: 5px; */
+    opacity: .6;
+}
+
+.redes a.fb 
+{ 
+    background: #3b5998
+}
+
+.redes a.tw 
+{
+    background: #1da1f2
+}
+.redes a.ig 
+{ 
+    background: #d3cdbd
+}
+
+.redes a.fb:hover 
+{ 
+    opacity: 1; 
+}
+.redes a.tw:hover 
+{
+    opacity: 1;
+}
+.redes a.ig:hover 
+{
+    opacity: 1;
+}
+
+.justfloatleft
+{
+    border: 2px solid #D5D4D4;
+    border-radius: 20px;
+    clear: left;
+    float: left;
+    margin: 5px 20px;
+    position: relative;
+}
+
+.justfloatleftacto
+{
+    border: 2px solid #D5D4D4;
+    border-radius: 20px;
+    clear: left;
+    float: left;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    position: relative;
+}
+
+.justfloatleftspecial
+{
+    clear: left;
+    float: left;
+    margin-top: 1%;
+    margin-left: 4.5%;
+    margin-right: 3%;
+    position: relative;
+}
+
+.justfloatright
+{
+    border: 2px solid #D5D4D4;
+    border-radius: 20px;
+    clear: right;
+    float: right;
+    margin: 5px 30px;
+    position: relative;
+}
+
+.justfloatrightspecial
+{
+    clear: right;
+    float: right;
+    margin: 5px 30px;
+    position: relative;
+}
+
+.pawards
+{
+    margin-top: 2.5%;
+}
+
+.specialist
+{
+    margin-left: 4.5%;
+    line-height: 25px;
+}
+
+.expa
+{
+    cursor: default;
+}
+
+.expa ul
+{
+
+    list-style: bullet;
+    margin: 3px 0;
+    margin-left: 4.5%;
+    line-height: 25px;
+    cursor: default;
+}
+
+.expa ul li a
+{
+    text-decoration: none;
+    color: #fec356;
+    cursor: default;
+}
+
+.expa ul li a:hover
+{
+    text-decoration: underline;
+}
+
+dl
+{
+    margin-bottom: 0.5em;
+}
+
+.sclass
+{
+    margin-left: 1%;
+}
+
+.specialist li a
+{
+    color: #fec356;
+    cursor: default;
+}
+
+.specialist li a:hover
+{
+    text-decoration: underline;
+}
+
+.navchap
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.navchap h2 a
+{
+    color: #d4d5d5;
+    text-decoration: none;
+}
+
+.navchap h2 a:hover
+{
+    color: #fec356;
+    text-decoration: underline;
+}
+
+.acto1 h4:hover
+{
+    color:#fec356;
+    cursor: default;
+}
+
+.acto2 h4:hover
+{
+    color:#fec356;
+    cursor: default;
+}
+
+.acto3 h4:hover
+{
+    color:#fec356;
+    cursor: default;
+}
+
+.acto4 h4:hover
+{
+    color:#fec356;
+    cursor: default;
+}
+
+.acto5 h4:hover
+{
+    color:#fec356;
+    cursor: default;
+}
+
+.margen-arspecial
+{
+    margin-top: 2.5%;
+}
