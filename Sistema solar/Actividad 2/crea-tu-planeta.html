@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <center>
+    <h2>Cuentanos, si pudieras crear un nuevo planeta, ¿Como se llamaria?</h2>
+  </center>
+
+  <form action="#" method="get">
+    <fieldset>
+      <label for="nombre">Nombre del planeta:</label>
+      <input type="text" name="nombre" id="nombre" placeholder="Nombre del planeta">
+      <br><br>
+      <label for="posicion">Número del planeta:</label>
+      <input type="text" name="posicion" id="posicion" placeholder="Posición del planeta">
+      <br><br>
+      <label for="satelite">¿Tendría un satelite como una Luna?</label>
+      <input type="radio" name="satelite" id="satelite1" value="Si"> Si
+      <input type="radio" name="satelite" id="satelite2" value="No"> No
+      <br><br>
+      <label for="clima">¿Seria un planeta frío, caliente o de temperaturas habitables como en la Tierra?</label>
+      <br>
+      <select name="clima" id="clima">
+        <option value="-">- - - - - - - - - -</option>
+        <option value="Caliente">Temperatura caliente</option>
+        <option value="Frio">Temperatura fría</option>
+        <option value="Normal">Temperatura normal</option>
+      </select>
+      <br><br>
+      <label for="explicacion">Dependiendo de la respuesta dada en la pregunta pasada, danos una pequeña explicación del por qué escogiste esa temperatura.</label>
+      <br>
+      <textarea name="explicacion" id="explicacion" cols="100" rows="5"></textarea>
+      <br><br>
+      <label for="introduccion">Danos por favor una pequeña introducción del planeta que acabas de crear, nos encantaría leerla!</label>
+      <br>
+      <textarea name="introduccion" id="introduccion" cols="100" rows="5"></textarea>
+      <br><br>
+      <input type="submit" value="Crear planeta!">
+      <input type="reset" value="Vaciar campos">
+    </fieldset>
+  </form>
+  <br>
+  <a href="../index.html" style="color: blue"><b>Volver al inicio</b></a>
+</body>
+</html>

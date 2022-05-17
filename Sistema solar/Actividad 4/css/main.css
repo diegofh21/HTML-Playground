@@ -1,0 +1,101 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background: url('../img/wallpaper-space.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #d4d4d5;
+}
+
+.bg-dark
+{
+    --bs-bg-opacity: 0.5 !important;
+    transition: 0.5s all;
+}
+
+.bg-dark:hover
+{
+    --bs-bg-opacity: 1 !important;
+    transition: 0.5s all;
+}
+
+.text-justify
+{
+    text-align: justify !important;
+}
+
+.yellow
+{
+    color: yellow;
+}
+
+.orange
+{
+    color: rgb(180, 127, 29);
+}
+
+.black
+{
+    color: black;
+}
+
+.block-q-bg
+{
+    background: #d4d4d5;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+blockquote
+{
+    border-left: 3px #2980b9 solid;
+    padding: 10px;
+    color: black;
+}
+
+.capital-letter
+{
+    font-size: 64px;
+}
+
+table
+{
+    border-spacing: 10px 10px;
+    background-color: #d4d4d5;
+    color: black;
+    border-radius: 5px;
+}
+
+img
+{
+    border-radius: 10px;
+}
+
+.planets-info
+{
+    background-color: #d4d4d5;
+    color: black;
+    padding: 2.5%;
+}
+
+.link
+{
+    color: #2980b9;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.link:hover
+{
+    color: #0984e3;
+    transition: 0.4s all;
+}
+
+label
+{
+    padding: 10px;
+}
